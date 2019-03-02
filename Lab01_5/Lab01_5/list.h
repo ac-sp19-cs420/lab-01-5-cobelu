@@ -37,21 +37,27 @@ int insert(LinkedList list, int data, int key);
 /*
  Create a method is_in_list that takes two parameters, a linked list struct and an key integer. This will return 1 if there is an element in the linked list that has the associated key integer, it returns a 0 if there isn't. -1 if there is an error. (May not need to return -1 depending on how you implement it.)
 */
+int is_in_list(LinkedList list, int key);
 
 /*
  Create a method find that takes two parameters, a linked list struct and an key integer. This will return the value for the associated key from the list. If the node isn't present or something goes wrong it will return a 0.
  */
+int find(LinkedList list, int key);
 
 /*
  Create a method remove that takes two parameters, a linked list struct and an key integer. This will remove the node with the associated key from the list. If the node is removed it will return a 1. If the node isn't present or something goes wrong it will return a 0.
  */
+// DAMMIT, AARON! I CAN'T CALL THIS "remove" BECAUSE THERE'S A FUNCTION IN STDIO WITH THAT NAME!
+int remove_node(LinkedList list, int key);
 
 /*
  Create a method print_list that takes one parameter a linked list struct. This prints out a list of all of the integer values of the elements in the linked list.
  */
+void print_list(LinkedList list);
 
 /*
  Crate a method create_array that takes one parameter a linked list struct. This returns an array of all of the integer values of the elements in the linked list.
  */
+int* create_array(LinkedList list);
 
 #endif /* list_h */
