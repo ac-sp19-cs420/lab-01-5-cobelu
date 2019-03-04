@@ -8,10 +8,10 @@
 
 #include "queue.h"
 
-int push(Queue queue, int value);
+int q_push(Queue queue, int value);
 
-int pop(Queue queue);
+int q_pop(Queue queue);
 
-int last(Queue queue);
+int q_last(Queue queue);
 
-int is_empty(Queue queue);
+int q_is_empty(Queue queue);
