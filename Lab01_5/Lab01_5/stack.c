@@ -24,6 +24,10 @@ int s_top(Stack stack) {
 }
 
 int s_is_empty(Stack stack) {
-    
+    // Check if empty -> True
+    if (stack->stack) {
+        return 1;
+    }
+    // Not empty -> False
     return 0;
 }

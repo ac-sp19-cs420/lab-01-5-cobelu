@@ -21,21 +21,21 @@ typedef struct Stack {
 /*
 Create a method push that takes two values and integer and a stack struct. This will push the integer onto the stack.
  */
-int s_push(Stack stack, int value);
+int s_push(Stack* stack, int value);
 
 /*
 Create a method pop that takes one parameter, the stack struct. This removes the top integer from this list and returns the value
  */
-int s_pop(Stack stack);
+int s_pop(Stack* stack);
 
 /*
 Create a method top that takes one parameter, the stack struct. This returns the top integer from this list. It is NOT removed.
  */
-int s_top(Stack stack);
+int s_top(Stack* stack);
 
 /*
 Create a method is_empty that takes one parameter, the stack struct. This return 1 if the list is empty, and 0 if it contains at least one element.
  */
-int s_is_empty(Stack stack);
+int s_is_empty(Stack* stack);
 
 #endif /* stack_h */

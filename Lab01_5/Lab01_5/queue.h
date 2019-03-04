@@ -21,21 +21,21 @@ typedef struct Queue {
 /*
  Create a method push that takes two values and integer and a queue struct. This will push the integer onto the queue.
  */
-int q_push(Queue queue, int value);
+int q_push(Queue* queue, int value);
 
 /*
  Create a method pop that takes one parameter, the queue struct. This removes the last integer from this list and returns the value
  */
-int q_pop(Queue queue);
+int q_pop(Queue* queue);
 
 /*
  Create a method last that takes one parameter, the queue struct. This returns the last integer from this list. It is NOT removed.
  */
-int q_last(Queue queue);
+int q_last(Queue* queue);
 
 /*
  Create a method is_empty that takes one parameter, the queue struct. This return 1 if the list is empty, and 0 if it contains at least one element.
  */
-int q_is_empty(Queue queue);
+int q_is_empty(Queue* queue);
 
 #endif /* queue_h */
