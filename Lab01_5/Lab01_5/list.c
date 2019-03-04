@@ -16,10 +16,14 @@ int insert(LinkedList list, int data, int key) {
     // Assign the attributes to the node
     newNode->data = data;
     newNode->key = key;
+    printf("Adding node with data %d and key %d...\n", data, key);
     // Grab the first
+    printf("Head was pointing to %p \n", list.head);
     LinkedListNode* node = list.head;
     // Add the new node to the front (O(c))
+    printf("The new node is at %p \n", newNode);
     list.head = newNode;
+    printf("Head is now pointing to %p \n", list.head);
     newNode->next = node;
     // Failure
     if (list.head == NULL) {
