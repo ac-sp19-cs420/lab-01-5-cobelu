@@ -24,7 +24,6 @@ int s_top(Stack* stack) {
 
 int s_is_empty(Stack* stack) {
     // Check if empty -> True
-    // TODO: Double check me!
     if (stack->stack->head == NULL) {
         return 1;
     }

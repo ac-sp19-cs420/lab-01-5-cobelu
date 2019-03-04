@@ -24,6 +24,10 @@ int q_last(Queue* queue) {
 }
 
 int q_is_empty(Queue* queue) {
-    
+    // Check if empty -> True
+    if (stack->stack->head == NULL) {
+        return 1;
+    }
+    // Not empty -> False
     return 0;
 }

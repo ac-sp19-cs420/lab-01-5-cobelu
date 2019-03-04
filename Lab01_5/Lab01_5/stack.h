@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "list.h"
 
 /* Create a struct for a stack of integers. This contains one entry for a linked list struct.
  */
