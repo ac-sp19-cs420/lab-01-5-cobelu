@@ -10,6 +10,7 @@
 #define queue_h
 
 #include <stdio.h>
+#include "list.h"
 
 /*
  Create a struct for a queue of integers. This contains one entry for a linked list struct.

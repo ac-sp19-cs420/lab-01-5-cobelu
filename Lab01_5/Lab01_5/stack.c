@@ -9,7 +9,6 @@
 #include "stack.h"
 
 int s_push(Stack* stack, int value) {
-    
     return 0;
 }
 
@@ -26,7 +25,7 @@ int s_top(Stack* stack) {
 int s_is_empty(Stack* stack) {
     // Check if empty -> True
     // TODO: Double check me!
-    if (stack->stack == NULL) {
+    if (stack->stack->head == NULL) {
         return 1;
     }
     // Not empty -> False
