@@ -7,9 +7,21 @@
 //
 
 #include <stdio.h>
+#include "list.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    /*
+     Linked List
+     */
+    
+    /*
+     Stack
+     */
+    
+    /*
+     Queue
+    */
+    
     return 0;
 }
