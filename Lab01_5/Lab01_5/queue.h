@@ -14,24 +14,28 @@
 /*
  Create a struct for a queue of integers. This contains one entry for a linked list struct.
  */
-typedef struct Stack {
-    // TODO
-} Stack;
+typedef struct Queue {
+    struct LinkedList* queue;
+} Queue;
 
 /*
  Create a method push that takes two values and integer and a queue struct. This will push the integer onto the queue.
  */
+int push(Queue queue, int value);
 
 /*
  Create a method pop that takes one parameter, the queue struct. This removes the last integer from this list and returns the value
  */
+int pop(Queue queue);
 
 /*
  Create a method last that takes one parameter, the queue struct. This returns the last integer from this list. It is NOT removed.
  */
+int last(Queue queue);
 
 /*
  Create a method is_empty that takes one parameter, the queue struct. This return 1 if the list is empty, and 0 if it contains at least one element.
  */
+int is_empty(Queue queue);
 
 #endif /* queue_h */
