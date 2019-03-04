@@ -82,11 +82,11 @@ int remove_node(LinkedList list, int key) {
 
 void print_list(LinkedList list) {
     // Start with the head
-    LinkedListNode* nextNode = list.head;
+    LinkedListNode* node = list.head;
     // Go through until find (or not)
-    while (nextNode != NULL) {
-        printf("%d -> ", nextNode->data);
-        nextNode = nextNode->next;
+    while (node != NULL) {
+        printf("%d -> ", node->data);
+        node = node->next;
     }
     printf("\n");
 }
