@@ -48,37 +48,38 @@ int main(int argc, const char * argv[]) {
     /*
      Stack
      */
-    Stack* stack = (Stack*) malloc(sizeof(Stack));
-    // Push
-    assert(s_push(*stack, 1) == 1);
-    assert(s_push(*stack, 2) == 1);
-    assert(s_push(*stack, 3) == 1);
-    // Pop
-    assert(s_pop(*stack) == 1);
-    // Top
-    assert(s_top(*stack) == 2);
-    // Is Empty
-    assert(s_is_empty(*stack) == 0);
-    s_pop(*stack);
-    s_pop(*stack);
-    assert(s_is_empty(*stack) == 0);
+//    Stack* stack = (Stack*) malloc(sizeof(Stack));
+//    // Push
+//    assert(s_push(*stack, 1) == 1);
+//    assert(s_push(*stack, 2) == 1);
+//    assert(s_push(*stack, 3) == 1);
+//    // Pop
+//    assert(s_pop(*stack) == 1);
+//    // Top
+//    assert(s_top(*stack) == 2);
+//    // Is Empty
+//    assert(s_is_empty(*stack) == 0);
+//    s_pop(*stack);
+//    s_pop(*stack);
+//    assert(s_is_empty(*stack) == 0);
     
     /*
      Queue
     */
-    Queue* queue = (Queue*) malloc(sizeof(Queue));
-    // Push
-    assert(q_push(*queue, 1) == 1);
-    assert(q_push(*queue, 2) == 1);
-    assert(q_push(*queue, 3) == 1);
-    // Pop
-    assert(q_pop(*queue) == 1);
-    // Last
-    assert(q_last(*queue) == 3);
-    // Is Empty
-    assert(q_is_empty(*queue) == 0);
-    q_pop(*queue);
-    q_pop(*queue);
-    assert(q_is_empty(*queue) == 1);
+//    Queue* queue = (Queue*) malloc(sizeof(Queue));
+//    // Push
+//    assert(q_push(*queue, 1) == 1);
+//    assert(q_push(*queue, 2) == 1);
+//    assert(q_push(*queue, 3) == 1);
+//    // Pop
+//    assert(q_pop(*queue) == 1);
+//    // Last
+//    assert(q_last(*queue) == 3);
+//    // Is Empty
+//    assert(q_is_empty(*queue) == 0);
+//    q_pop(*queue);
+//    q_pop(*queue);
+//    assert(q_is_empty(*queue) == 1);
+    
     return 0;
 }
