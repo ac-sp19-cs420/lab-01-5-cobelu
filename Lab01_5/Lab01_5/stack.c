@@ -8,10 +8,22 @@
 
 #include "stack.h"
 
-int s_push(Stack stack, int value);
+int s_push(Stack stack, int value) {
+    
+    return 0;
+}
 
-int s_pop(Stack stack);
+int s_pop(Stack stack) {
+    
+    return 0;
+}
 
-int s_top(Stack stack);
+int s_top(Stack stack) {
+    
+    return 0;
+}
 
-int s_is_empty(Stack stack);
+int s_is_empty(Stack stack) {
+    
+    return 0;
+}

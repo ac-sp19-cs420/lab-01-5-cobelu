@@ -8,10 +8,22 @@
 
 #include "queue.h"
 
-int q_push(Queue queue, int value);
+int q_push(Queue queue, int value) {
+    
+    return 0;
+}
 
-int q_pop(Queue queue);
+int q_pop(Queue queue) {
+    
+    return 0;
+}
 
-int q_last(Queue queue);
+int q_last(Queue queue) {
+    
+    return 0;
+}
 
-int q_is_empty(Queue queue);
+int q_is_empty(Queue queue) {
+    
+    return 0;
+}
