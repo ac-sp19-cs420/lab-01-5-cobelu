@@ -10,6 +10,8 @@
 #include <stdlib.h>
 #include <assert.h>
 #include "list.h"
+#include "stack.h"
+#include "queue.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -46,10 +48,25 @@ int main(int argc, const char * argv[]) {
     /*
      Stack
      */
+    Stack* stack = (Stack*) malloc(sizeof(Stack));
+    // Push
+    assert(push(*stack, 1) == 1);
+    assert(push(*stack, 2) == 1);
+    assert(push(*stack, 3) == 1);
+    // Pop
+    assert(pop(*stack) == 1);
+    // Top
+    assert(top(*stack) == 2);
+    // Is Empty
+    assert(is_empty(*stack) == 0);
+    pop(*stack);
+    pop(*stack);
+    assert(is_empty(*stack) == 0);
     
     /*
      Queue
     */
+    
     
     return 0;
 }
