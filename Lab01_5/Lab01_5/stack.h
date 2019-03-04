@@ -15,7 +15,7 @@
 /* Create a struct for a stack of integers. This contains one entry for a linked list struct.
  */
 typedef struct Stack {
-    // TODO
+    struct LinkedList* stack;
 } Stack;
 
 /*

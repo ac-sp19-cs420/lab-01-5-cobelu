@@ -14,6 +14,9 @@
 /*
  Create a struct for a queue of integers. This contains one entry for a linked list struct.
  */
+typedef struct Stack {
+    // TODO
+} Stack;
 
 /*
  Create a method push that takes two values and integer and a queue struct. This will push the integer onto the queue.
