@@ -8,24 +8,25 @@
 
 #include "stack.h"
 
-int s_push(Stack stack, int value) {
+int s_push(Stack* stack, int value) {
     
     return 0;
 }
 
-int s_pop(Stack stack) {
+int s_pop(Stack* stack) {
     
     return 0;
 }
 
-int s_top(Stack stack) {
+int s_top(Stack* stack) {
     
     return 0;
 }
 
-int s_is_empty(Stack stack) {
+int s_is_empty(Stack* stack) {
     // Check if empty -> True
-    if (stack->stack) {
+    // TODO: Double check me!
+    if (stack->stack == NULL) {
         return 1;
     }
     // Not empty -> False
