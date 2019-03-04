@@ -7,3 +7,11 @@
 //
 
 #include "stack.h"
+
+int push(Stack stack, int value);
+
+int pop(Stack stack);
+
+int top(Stack stack);
+
+int is_empty(Stack stack);
